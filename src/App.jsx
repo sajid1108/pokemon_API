@@ -12,7 +12,7 @@ function App() {
     setLoading(true); // Set loading saat data di-fetch
     try {
       const { data: response } = await axios.get(
-        "https://pokeapi.co/api/v2/pokemon?limit=50"
+        "https://pokeapi.co/api/v2/pokemon?limit=103"
       );
       setPokemonData(response.results);
       setError(false);
