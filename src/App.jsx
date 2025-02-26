@@ -14,7 +14,7 @@ function App() {
     setLoading(true);
     try {
       const { data: response } = await axios.get(
-        "https://pokeapi.co/api/v2/pokemon?limit=1000"
+        "https://pokeapi.co/api/v2/pokemon?limit=1025"
       );
       setPokemonData(response.results);
       setError(false);
