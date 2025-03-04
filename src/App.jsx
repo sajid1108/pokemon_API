@@ -44,7 +44,7 @@ function App() {
 
   return (
     <>
-      <div className="App min-h-screen bg-[#f5f5dc] flex flex-col items-center p-8">
+      <div className="App min-h-screen bg-[#C00D0D] flex flex-col items-center p-8">
         {loading ? (
           <div className="flex justify-center items-center h-screen">
             <img src={DualBall} alt="Loading" width="200" height="200" />
@@ -61,7 +61,7 @@ function App() {
               {pokemonData.map((pokemon, index) => (
                 <div
                   key={index}
-                  className="border-2 border-gray-300 p-4 rounded-lg flex flex-col items-center bg-blue-200 shadow-lg hover:bg-blue-300 transition duration-300 cursor-pointer"
+                  className="border-2 border-gray-300 p-4 rounded-lg flex flex-col items-center bg-white hover:bg-[#f5f5dc] transition duration-300 cursor-pointer"
                   onClick={() => getPokemonDetail(pokemon.name)} // Tambahkan event onClick
                 >
                   <h2 className="font-semibold text-gray-700">#{index + 1}</h2>
