@@ -47,7 +47,7 @@ function App() {
       <div className="App min-h-screen bg-[#d4b393] flex flex-col items-center p-8">
         {loading ? (
           <div className="flex justify-center items-center h-screen">
-            <img src={DualBall} alt="Loading" width="200" height="200" />
+            <img src={DualBall} alt="Loading" width="50" height="50" />
           </div>
         ) : error ? (
           <h1 className="text-red-500">Error loading data!</h1>
