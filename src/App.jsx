@@ -44,7 +44,7 @@ function App() {
 
   return (
     <>
-      <div className="App min-h-screen bg-[#d4b393] flex flex-col items-center p-8">
+      <div className="App min-h-screen bg-[#d4b392] flex flex-col items-center p-8">
         {loading ? (
           <div className="flex justify-center items-center h-screen">
             <img src={DualBall} alt="Loading" width="50" height="50" />
