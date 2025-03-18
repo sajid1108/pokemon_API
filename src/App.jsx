@@ -44,7 +44,7 @@ function App() {
 
   return (
     <>
-      <div className="App min-h-screen bg-[#d4b392] flex flex-col items-center p-8">
+      <div className="App min-h-screen bg-[#ffa74e] flex flex-col items-center p-8">
         {loading ? (
           <div className="flex justify-center items-center h-screen">
             <img src={DualBall} alt="Loading" width="50" height="50" />
@@ -56,7 +56,7 @@ function App() {
             <h1 className="text-2xl font-bold mb-8 text-center">
               List of Pokémon
             </h1>
-            <h6 className="text-2x1 font-bold mb-8 text-center">By : Akedo</h6>
+            <h6 className="text-2x1 font-bold mb-8 text-center">By : Sajid</h6>
             <div className="flex flex-wrap justify-center gap-8">
               {pokemonData.map((pokemon, index) => (
                 <div
