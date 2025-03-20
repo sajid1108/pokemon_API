@@ -56,7 +56,7 @@ function App() {
             <h1 className="text-2xl font-bold mb-8 text-center">
               List of Pokémon
             </h1>
-            <h6 className="text-2x1 font-bold mb-8 text-center">By : Sajid AF</h6>
+            <h6 className="text-2x1 font-bold mb-8 text-center">By : 4kedo</h6>
             <div className="flex flex-wrap justify-center gap-8">
               {pokemonData.map((pokemon, index) => (
                 <div
