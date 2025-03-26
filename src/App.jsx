@@ -50,7 +50,7 @@ function App() {
             <img src={DualBall} alt="Loading" width="50" height="50" />
           </div>
         ) : error ? (
-          <h1 className="text-red-500">Error loading data!</h1>
+          <h1 className="text-red-500">Error loading data!!!</h1>
         ) : (
           <div>
             <h1 className="text-2xl font-bold mb-8 text-center">
