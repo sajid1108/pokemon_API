@@ -61,7 +61,7 @@ function App() {
               {pokemonData.map((pokemon, index) => (
                 <div
                   key={index}
-                  className="border-2 border-gray-300 p-4 rounded-lg flex flex-col items-center bg-white hover:bg-[#dede97] transition duration-300 cursor-pointer"
+                  className="border-2 border-gray-400 p-4 rounded-lg flex flex-col items-center bg-white hover:bg-[#dede97] transition duration-300 cursor-pointer"
                   onClick={() => getPokemonDetail(pokemon.name)} // Tambahkan event onClick
                 >
                   <h2 className="font-semibold text-gray-700">#{index + 1}</h2>
